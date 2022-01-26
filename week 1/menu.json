@@ -7,34 +7,39 @@
         {
             "name": "French Onion Soup",
             "ingredients": ["Onion", "Chicken Stock", "Duck Fat Croutons"],
-            "description": "French onion soup with Copper and Kings Brandy and Kenny's Kentucky Rose"
+            "description": "French onion soup with Copper and Kings Brandy and Kenny's Kentucky Rose."
         },
         {
             "name": "Mussels",
             "ingredients": ["Mussels", "Roasted Garlic", "Fingerling Chips"],
-            "description": "Prince Edward Island mussels with roasted garlic and shallot, with fingerling chips"
+            "description": "Prince Edward Island mussels with roasted garlic and shallot, with fingerling chips."
         }
     ],
     "cold sandwiches": [{
-            "name": "Cucumber Sandwich",
+            "name": "Cucumber Sandwiches",
             "ingredients": ["Cream Cheese", "Mayonnaise", "Fresh Dill", "Fresh Chives", "English Cucumber", "Sliced Bread"],
             "description": "Cool Uncrusted Dill Cucumber Sandwiches."
         },
         {
-            "name": "Club Sandwich",
-            "ingredients": ["Lettuce", "Tomatoes", "Turkey"],
-            "description": "Club Sandwich with lettuce, tomatoes, and turkey on white bread."
+            "name": "ChickPea & Avocado Sandwich",
+            "ingredients": ["Chickpeas", "Avocados", "Green onions", "Cilantro", "Dill"],
+            "description": "Chilled Chickpea & Avocado Sandwich."
+        },
+        {
+            "name": "Smoked Salmon Bagel Sandwich",
+            "ingredients": ["Salmon", "Cream Cheese", "Capers", "Cucumbers", "Dill"],
+            "description": "Cucumber & Smoked Salmon Bagel with cream cheese dill, and capers."
         }
     ],
     "hot sandwiches": [{
-            "name": "Pulled Pork Sandwich",
-            "ingredients": ["Pulled Pork", "BBQ Sauce"],
-            "description": "Pulled pork covered in BBQ sauce on a potato bun."
+            "name": "Grilled Tomato & Mozzerella Panini",
+            "ingredients": ["Grilled Tomatos", "Pesto Sauce", "Mozzerlla Cheese"],
+            "description": "Grilled Tomato and Mozzerella Panini with a homemade pesto spread."
         },
         {
-            "name": "Grilled Cheese",
-            "ingredients": ["American Cheese", "French Bread"],
-            "description": "A basic grilled cheese sandwich on french bread. Just like mom used to make!"
+            "name": "Grilled Turkey and Chedar",
+            "ingredients": ["Turkey", "Sourdough Bread", "White Cheddar", "Tomato", "Red Onion", "Cajun Aioli Sauce"],
+            "description": "Grilled Turkey and white cheddar sandwich on a grill sourdough bun."
         }
     ],
     "desserts": [{
