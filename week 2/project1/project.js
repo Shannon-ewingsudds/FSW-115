@@ -256,7 +256,6 @@ document.body.appendChild(hpCharacteres);
 let ulist = document.createElement("ul");
 for (cast of harryPotter.cast) {
     ulist.innerHTML += `<li>Character: ${cast.character}, Hogwarts House: ${cast.hogwartsHouse}</li>`;
-
 }
 
 document.body.appendChild(ulist);
