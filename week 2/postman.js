@@ -10,8 +10,8 @@ let apod = {
     "url": "https://apod.nasa.gov/apod/image/2201/CarinaNorth_Colombari_960.jpg"
 }
 for (key in apod) {
-    let photo = document.createElement("h4");
-    photo.innerHTML = `${key}: ${apod[key]}`;
-    document.body.appendChild(photo);
+    let info = document.createElement("h4");
+    info.innerHTML = `${key}: ${apod[key]}`;
+    document.body.appendChild(info);
 }
 //https://api.nasa.gov/planetary/apod?api_key=mV2TFgFkN1zrhRY0xEPYHSOEjhkqAUiEeAEkf8H6
