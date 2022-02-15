@@ -12,6 +12,9 @@ function getData() {
                 div.textContent = array;
                 div.setAttribute("class", "data_elements")
                 document.body.appendChild(div);
+                div.addEventListener('click', function() {
+                    div.style.textDecoration = "line-through"
+                });
             };
         })
         .catch(error => console.log(error));
