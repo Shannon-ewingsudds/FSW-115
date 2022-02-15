@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(90deg, #FF69B4 0%, #EE82EE 50%, #FF69B4 100%);
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+li,
+ol {
+    text-align: center;
+    color: #191970;
+}
+
+ol,
+li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #FF69B4;
+    transition: 0.2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ol,
+li.checked {
+    background: #FFEFD5;
+    color: #191970;
+}
